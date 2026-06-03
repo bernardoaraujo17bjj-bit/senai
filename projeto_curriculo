@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5501/index.html -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bernardo</title>
+</head>
+<body>
+<h1>Bernardo Bardança Araújo</h1>
+<p>Email:bernardoaraujo17bjj@gmail.com</p>
+<p>Telefone:(48) 9157-9005</p>
+<p>Cidade:São José-SantaCatarina</p>
+<hr>
+<h3>Objetivo</h3>
+<p>Buscar uma oportunidade na área de desenvolvimento para aplicar meus conhecimentos e continuar evoluido profissionalmente</p>
+<hr>
+<h3>Formação Acadêmica</h3>
+<ul>
+<li>Ensino Médio-Cema Joba-Escola de Educação Básica (EBB) Professora Maria José Barsbosa Vieira(2026)</li>
+<li>Curso Técnico em Desenvolvimento/Sistemas-Sesi Senai(2026)</li>
+</ul>
+<hr>
+<h3>Experiência Profissional</h3>
+<p><strong>Intelebras</strong>-Estágio</p>
+<p>Período:2025-2026</p>
+<hr>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>Trabalho em equipe</li>
+</ul>
+<hr>
+<h3>Idiomas</h3>
+<ul>
+<li>Português-Nativo</li>
+<li>Inglês-Básico</li>
+<li>Espanho-Básico</li>
+</ul>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
